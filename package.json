@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dotenv": "^16.4.5",
     "ethers": "^6.13.2",
     "moment-timezone": "^0.5.45"
   }
