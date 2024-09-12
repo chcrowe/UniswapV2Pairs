@@ -9,7 +9,11 @@
 ### 3. Create and Setup .env
 Before running any scripts, you'll want to create a .env file with the following values (see .env.example):
 - **PROVIDER_URL=""**
-Possible values
+
+- **wss://mainnet.infura.io/ws/v3/<API-KEY>**
+- **wss://base-mainnet.g.alchemy.com/v2/<API-KEY>**
+- **wss://arb-mainnet.g.alchemy.com/v2/<API-KEY>**
+
 - **https://mainnet.infura.io/v3/<API-KEY>**
 - **https://arbitrum-mainnet.infura.io/v3/<API-KEY>**
 - **https://base-mainnet.infura.io/v3/<API-KEY>**
@@ -22,6 +26,7 @@ Possible values
 - **CATE/WETH 0x68d66f784b49c2F3acF80E549cde65C81A0a1E12**
 
 - **RIXEN/WETH 0x4D4709345A1F95ADEa9FE3e1e340ED68d8F2792f (Base)**
+- **BRETT/WETH 0x404E927b203375779a6aBD52A2049cE0ADf6609B (Base)**
 
 - **LGNS/DAI 0x882df4B0fB50a229C3B4124EB18c759911485bFb (Polygon)**
 
