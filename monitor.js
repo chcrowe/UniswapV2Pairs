@@ -194,9 +194,6 @@ async function subscribeToSwapEvents() {
             );
           }
 
-          const ratioToken0_Token1 = token0Amount / token1Amount;
-          const ratioToken1_Token0 = token1Amount / token0Amount;
-
           const ratios = formatTokenRatio(
             token0Info.symbol,
             token0Amount,
